@@ -1,3 +1,5 @@
+require 'yml'
+
 def load_library(file_path)
   emoticons = YAML.load('./lib/emoticons.yml')
 
