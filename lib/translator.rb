@@ -7,7 +7,7 @@ def load_library(file_path)
               
                   'get_emoticon' => {} }
 
-  emoticons.each do |meaning, value|  # meaning= "surprised"   # value= [":o", "o_O"]  <-(e,j)
+  emoticons.each do |meaning, value|  
     english = value[0]
     japanese = value[1]
     emoticon_lib['get_meaning'][japanese] = meaning
